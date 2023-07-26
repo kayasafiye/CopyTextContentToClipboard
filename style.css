@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+.text-box{
+    position: relative;
+    background-color:#9BCDD2;
+    width: 650px;
+    margin: 10px;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.text-box .top-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.text-box .top-area h2{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.text-box .top-area .copy-btn{
+    background-color: #eee;
+    color: #999;
+    font-size: 1.5em;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.text-box .top-area .copy-btn:hover{
+    color: #222;
+}
+
+.text-box textarea{
+    width: 100%;
+    min-height: 450px;
+    font-size: 1em;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 208, 140);
+}
